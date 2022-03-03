@@ -1,0 +1,102 @@
+/* Шапка */
+header.page-header {
+    background: no-repeat left/cover url(media/background.png);
+    display: flex;
+    height: 200px;
+    min-width: 120px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-shadow: #000 0 0 .2em;
+    size: 40px;
+    width: 100%;
+}
+
+header .h1{
+    margin-left: 16%;
+    size: 45px;
+}
+
+header .img {
+    margin-left: 12%;
+}
+/* Форма авторизации */
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+    border-top: 0ch;
+    border-right: 0ch;
+    border-left: 0ch;
+    height: 30px;
+    padding-left: 25%;
+}
+
+
+label {
+    padding-left: 60px;
+}
+
+button{
+    width: 170px;
+    height: 45px;
+    border-radius: 40px;
+    margin-left: 50px;
+    background-color: rgb(127, 255, 138);
+}
+
+    .button{
+        margin-left: 0px;
+
+}
+
+
+/* Контент */
+main{
+    width: 500px;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: aliceblue;
+    align-content: center;
+    border-radius: 39px;
+    margin-top: 20px;
+}
+
+.reg{
+    width: 500px;
+    height: 495px;
+    margin-right: auto;
+    margin-left: 30%;
+    align-content: center;
+    border-radius: 39px;
+    margin-top: 30px;
+    padding-left: 0px;
+}
+
+form{
+    width: 350px;
+    height: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    content: unset;
+    align-content: center;
+    background-color: aliceblue;
+    padding-top: 35%;
+}
+
+body{
+    background-color: lightgrey;
+    height: 100%;
+    width: 100%;
+}
+
+    /* Подвал */
+footer{
+    width: 100%;
+    height: 140px;
+    background-color: #000;
+}
+
+footer .h3{
+    color: white;
+    text-align: center;
+}
